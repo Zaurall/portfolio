@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "logo font";
+    src: url(../font/Fyodor-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+    font-family: "Roboto";
+    font-size: .5208333333vw;
+}
+
+body {
+    /* background: rgb(234,220,193); */
+    /* background: radial-gradient(circle, rgba(234,220,193,1) 0%, rgb(225, 206, 166) 100%); */
+    color: #343a40;
+}
+
+h1.logo {
+    /* font-family: "logo font"; */
+    /* font-size: 64px; */
+    font-weight: 500;
+    font-size: 4rem;
+    margin: 10px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 125.6rem;
+}
+
+.link-navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-block-navbar {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    align-items: flex-end;
+    align-self: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.section-img {
+    margin: 10rem auto;
+    position: relative;
+    width: 125.7rem;
+}
+
+.main-img {
+    display: block;
+    margin: auto;
+    size: auto;
+}
+
+#comic-description {
+    text-align: center;
+    font-size: 4rem;
+}
