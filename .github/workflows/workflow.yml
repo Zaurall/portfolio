@@ -10,6 +10,14 @@ permissions:
   contents: write
 
 jobs:
+  check-and-lint:
+    name: Check the code and lint it
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check
+        run: npm run check
+      - name: Lint
+        run: npm run lint
   build-and-deploy:
     name: Build and Deploy to GH Pages
     runs-on: ubuntu-latest

@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	
 </script>
 
 <a href="{base}/"><h1 class="logo">zaurall</h1></a>
