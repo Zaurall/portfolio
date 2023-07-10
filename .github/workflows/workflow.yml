@@ -26,6 +26,12 @@ jobs:
         run: npm run check
       - name: Lint
         run: npm run lint
+      - name: Fail if linting or checking fails
+        run: |
+          if [ ${{ job.status }} != 'Success' ]; then
+            echo "Linting or checking failed. Exiting."
+            exit 1
+          fi
   build-and-deploy:
     name: Build and Deploy to GH Pages
     runs-on: ubuntu-latest
