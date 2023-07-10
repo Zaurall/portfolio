@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import ImageSection from '$lib/components/ImageSection.svelte';
+	import AboutSection from '$lib/components/AboutSection.svelte';
+	import PortfolioSection from '$lib/components/PortfolioSection.svelte';
+</script>
+
+<ImageSection />
+<AboutSection />
+<PortfolioSection />
