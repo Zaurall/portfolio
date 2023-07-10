@@ -1,14 +1,15 @@
 <script lang="ts">
 	import Logo from '$lib/components/navigation/Logo.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <nav class="menu-wrapper">
 	<Logo />
 	<div class="link-navbar">
-		<a href="/comic/" class="link-block-navbar">Comics</a>
-		<a href="/#about" class="link-block-navbar">About Me</a>
-		<a href="/#portfolio" class="link-block-navbar">Portfolio</a>
-		<a href="/#contact" class="link-block-navbar">Contact</a>
+		<a href="{base}/comic/" class="link-block-navbar">Comics</a>
+		<a href="{base}/#about" class="link-block-navbar">About Me</a>
+		<a href="{base}/#portfolio" class="link-block-navbar">Portfolio</a>
+		<a href="{base}/#contact" class="link-block-navbar">Contact</a>
 	</div>
 </nav>
 
