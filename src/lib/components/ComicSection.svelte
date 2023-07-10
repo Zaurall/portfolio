@@ -20,11 +20,6 @@
 		);
 	}
 
-
-
-
-	
-
 	function handleImg(comicObj: Comic) {
 		alt = comicObj.alt;
 		src = comicObj.img.toString();
