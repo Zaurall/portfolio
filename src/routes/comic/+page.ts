@@ -7,8 +7,6 @@ export async function load({ fetch }: { fetch: typeof window.fetch }) {
 
 	const data: Comic = await fetch('https://fwd.innopolis.university/api/comic?id=' + id).then((r) => r.json());
 	
-	console.log(1234);
-
 	return {
 		title: 'Comic',
 		comicData: data,
