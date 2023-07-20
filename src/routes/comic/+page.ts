@@ -1,4 +1,6 @@
 import type { Comic } from '$lib/components/comic';
+export const prerender = true;
+export const ssr = true;
 
 export async function load({ fetch }: { fetch: typeof window.fetch }) {
 	const email = 'n.zinnatullin@innopolis.university';
