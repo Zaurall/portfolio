@@ -1,10 +1,5 @@
 <script lang="ts">
 	import ComicSection from '$lib/components/ComicSection.svelte';
-	import { load } from '../+page.js';
-
-	export async function loadComic() {
-		return await load();
-	}
 
 	export let data;
 </script>
