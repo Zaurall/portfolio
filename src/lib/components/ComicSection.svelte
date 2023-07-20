@@ -29,7 +29,7 @@
 	onMount(() => {
 		handleImg(comicData);
 	});
-
+	
 	afterUpdate(() => {
 		handleImg(comicData);
 	});
